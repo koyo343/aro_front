@@ -4,7 +4,7 @@ export const Login = () => {
     return (
         <main>
             <h1>Welcome Login Page</h1>
-            <Link to="/">Homeぺーじへ</Link>
+            <Link to="/road1">ログインする</Link>
         </main>
     )
 }

@@ -1,11 +1,10 @@
 import { Link } from "react-router-dom"
 
-export const Home = () => {
+export const MyPage = () => {
     return (
         <main>
             <h1>Hello World</h1>
-            <Link to="/welcome">Sign Out</Link>
-            <Link to="/mypage">MyPageにいく</Link>
+            <Link to="/">Homeに戻る</Link>
         </main>
     )
 }
