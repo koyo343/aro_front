@@ -1,5 +1,5 @@
 import { Link } from "react-router-dom"
-import Loader from 'react-loader-spinner'
+//import Loader from 'react-loader-spinner'
 
 export const Road1 = () => {
     return (

@@ -5,7 +5,8 @@ import { Login } from './Login';
 import { Welcome } from './Welcome';
 import { Road1 } from './Road1';
 import { MyPage } from './MyPage';
-
+import { Setting } from './Setting';
+import { Search } from './Search';
 
 function App() {
   return (
@@ -16,6 +17,8 @@ function App() {
         <Route path="/welcome" element={<Welcome/>}/>
         <Route path="/road1" element={<Road1/>}/>
         <Route path="/mypage" element={<MyPage/>}/>
+        <Route path="/setting" element={<Setting/>}/>
+        <Route path="/search" element={<Search/>}/>
       </Routes>
     </BrowserRouter>
   );

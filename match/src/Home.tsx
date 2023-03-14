@@ -9,6 +9,10 @@ export const Home = () => {
                 MyPageへ
             </Button>
 
+            <Button variant="contained" href="/search">
+                検索
+            </Button>
+
             <Button href="/welcome">Sign out</Button>
         </main>
     )

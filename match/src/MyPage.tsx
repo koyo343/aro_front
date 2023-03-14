@@ -6,7 +6,7 @@ export const MyPage = () => {
         <main>
             <h1>Hello World</h1>
             <Link to="/">Homeに戻る</Link>
-            <Button variant="contained" href="/setting1">
+            <Button variant="contained" href="/setting">
                 設定する
             </Button>
         </main>
