@@ -1,42 +1,19 @@
-import { Link } from "react-router-dom"
-//import Loader from 'react-loader-spinner'
+import React from "react";
+import { Button } from "@mui/material";
+
+if (window.location.pathname === "/road1") {
+    setTimeout(() => {
+      window.location.href = "/";
+    }, 3 * 1000);
+  }
 
 export const Road1 = () => {
     return (
         <main>
             <h1>Now Roading...</h1>
-            <Link to="/">Homeへ</Link>
+            <img style={{width:"200px",height:"auto"}} src="https://i.gifer.com/ZZ5H.gif"></img>
+            
         </main>
     )
 }
 
-// function Spinner() {
-//     return (
-//       <div className="sk-plane sk-center"></div>
-//     )
-// }
-
-// class App extends React.Component {
-//     constructor(props) {
-//       super(props);
-//       this.state = {
-//         loading: false
-//       }
-//     }
-//     componentDidMount() {
-//         // あえてローディング（スピナー）を表示するため5秒待機
-//         // 5秒後loadingのStateをTrueに変更
-//         setTimeout(()=>this.setState({loading: true}), 5000);
-//     }
-//       render () {
-//         return (
-//           <div>
-//             {this.state.loading ? (<Road1/>) : (<Spinner/>) }
-//           </div>
-//         )
-//     }
-// }
-// ReactDOM.render(
-//     <App/>,
-//     document.getElementById('root')
-// );

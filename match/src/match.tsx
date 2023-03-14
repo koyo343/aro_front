@@ -5,11 +5,11 @@ export const Home = () => {
     return (
         <main>
             <h1>Hello World</h1>
-            <Button variant="contained" href="/mypage">
-                MyPageへ
+            <Button variant="contained" href="/">
+                Homeへ
             </Button>
 
-            <Button href="/welcome">Sign out</Button>
+            <Button href="/welcome"></Button>
         </main>
     )
 }

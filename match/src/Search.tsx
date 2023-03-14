@@ -71,7 +71,7 @@ export const Search = () => {
 
             <div>
             <Select isMulti isSearchable name="language" options={options} value={selectedOption} onChange={handleSelectChanged}/>
-                <button onClick={handleButtonClicked}>Submit</button>
+                <button onClick={handleButtonClicked} >Submit</button>
             </div>
 
         </main>
