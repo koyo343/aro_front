@@ -15,21 +15,22 @@ const Header = () => {
   
 export const Home = () => {
     return (
-        <main> 
+        <main>
+             
             <div>
                 <Header />
                 <Typography>ホームページ</Typography>
             </div>
             <h1>Hello World</h1>
-            <Button variant="contained" href="/mypage">
+            <Button variant="contained" href="/mypage" style={{ margin: '20px 0' }}>
                 MyPageへ
             </Button>
-            <Stack spacing={2}></Stack>
-            <Button variant="contained" href="/match" >
+            
+            <Button variant="contained" href="/match" sx={{ width: "200px", height: "150px" }}>
                 マッチングへ
             </Button>
 
-            <Button variant="contained" href="/search" sx={{ width: "100%", height: "50px" }} >
+            <Button variant="contained" href="/search" sx={{ width: "100%", height: "50px" }} style={{ margin: '10px 0' }} >
                 検索
             </Button>
 
