@@ -4,7 +4,7 @@ import { Button } from "@mui/material";
 export const MyPage = () => {
     return (
         <main>
-            <h1>Hello World</h1>
+            <h1>Hello Hack Match</h1>
             <Link to="/">Homeに戻る</Link>
             <Button variant="contained" href="/setting">
                 設定する

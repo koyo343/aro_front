@@ -51,7 +51,7 @@ function SimpleDialog(props: SimpleDialogProps) {
         <ListItem disableGutters>
           <ListItemButton
             autoFocus
-            onClick={() => handleListItemClick('addAccount')}
+            onClick={() => handleListItemClick('addAccount')}href="/road1"
           >
             <ListItemAvatar>
               <Avatar>
@@ -93,6 +93,9 @@ export const Login = () => {
         open={open}
         onClose={handleClose}
       />
+      <Button variant="contained" href="/road1">
+        Go Next
+      </Button>
     </div>
   );
 }
