@@ -7,6 +7,8 @@ import { Road1 } from './Road1';
 import { MyPage } from './MyPage';
 import { Setting } from './Setting';
 import { Search } from './Search';
+import { Check } from './Check';
+import { Match } from './Match';
 
 function App() {
   return (
@@ -19,6 +21,8 @@ function App() {
         <Route path="/mypage" element={<MyPage/>}/>
         <Route path="/setting" element={<Setting/>}/>
         <Route path="/search" element={<Search/>}/>
+        <Route path="/check" element={<Check/>}/>
+        <Route path="/match" element={<Match/>}/>
       </Routes>
     </BrowserRouter>
   );
