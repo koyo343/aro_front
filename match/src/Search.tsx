@@ -56,7 +56,7 @@ export const Search = () => {
        
         //selectedOption.forEach((elm: { [x: string]: any; }) => console.log(elm["value"]));
         
-        console.log( selectedOption.map((elm: { [x: string]: any; }) => { return elm['value'] }).join('&') );
+        console.log(searchQuery);
         
         window.location.href = `https://youtube.com/results?search_query=${selectedOption.map((elm: { [x: string]: any; }) => { return elm['value'] }).join(',')}`;
     };
