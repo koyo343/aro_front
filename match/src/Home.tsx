@@ -11,6 +11,8 @@ const Header = () => {
     );
   };
 
+
+  
 export const Home = () => {
     return (
         <main> 
@@ -23,7 +25,11 @@ export const Home = () => {
                 MyPageへ
             </Button>
             <Stack spacing={2}></Stack>
-            <Button variant="contained" href="/search" {...{width:"20px",height:"auto"}}>
+            <Button variant="contained" href="/match" >
+                マッチングへ
+            </Button>
+
+            <Button variant="contained" href="/search" sx={{ width: "100%", height: "50px" }} >
                 検索
             </Button>
 

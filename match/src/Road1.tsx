@@ -1,5 +1,3 @@
-import React from "react";
-import { Button } from "@mui/material";
 
 if (window.location.pathname === "/road1") {
     setTimeout(() => {
